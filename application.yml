@@ -1,0 +1,10 @@
+token:
+  expiration_time: 86_400_000
+  secret: user_token_jqwelkjwoi123falsdkfjdalskjfdlskj
+
+spring:
+  datasource:
+    hikari.maximum-pool-size: 4
+    url: jdbc:postgresql://127.0.0.1:5432/springcloud
+    username: admin
+    password: "{cipher}AYCl+3ioPEMGILaQaADLDTntX49gvASFtIrx8sXDtGoffXGFQmcBGd2JO0KgPn0JYTt3ofNmYxv4X9HDqZkR2xO7Sv5tX6gjRp2hFsRsR4qel0ZjLNqdIcoRN87tO1dofPaf/Y6ICTLdbxNkp44rgPlf1E2zeT7Z6S0J6yT44oNBvX6d2e6KRR39p0xp+s0EZUKVz5jygkGjHJ/ExbB1RyoGF2ihM4ers6uhkWbnlRhqlqbDV27l2PjqdzKmlOSvHO8jHutsgxzCg5qDo51WuSPCADHUilZeVc9XN6AfUsJ5OSxGgWvIDuCbuWuRs2beyVy4NRtI85pXZR5tOZg5jVtGZFbouTru+AmHCy7hOB2Xx45Mbl1ct+SbYOuZboX2X1i3zRVm18W6jQfMxETnuJOcHxDZxKueoiRmy6C+QWFK+07Gju00IbZUL43EZvzTWiLOzyn3ApFA3BBTXE5lvY1JY/7OYEcthovBpKb8Y2L1X7mpBdpa8hPwXZDm+7dXKuNhFjGzw3sOSzKPU1hRaLyAWx6UghSjdkbxjjPRPKG/sQ=="
