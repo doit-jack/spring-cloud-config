@@ -1,7 +1,7 @@
 spring:
   config:
-#    activate:
-#      on-profile: dev
+    activate:
+      on-profile: dev
     import:
       - classpath:postgres-datasource.yaml
   zipkin:
