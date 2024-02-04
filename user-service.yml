@@ -1,1 +1,24 @@
-spring.jpa.hibernate.ddl-auto: update
+spring:
+  config:
+    activate:
+      on-profile: dev
+    import:
+      - classpath:postgres-datasource.yaml
+  zipkin:
+    base-url: http://zipkin:9411
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://discovery-service:8761/eureka #eureka라는 엔드포인트에 우리의 마이크로서비스를 등록하겠다.
+
+management:
+  zipkin:
+    tracing:
+      endpoint: "http://zipkin:9411/api/v2/spans"
