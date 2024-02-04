@@ -1,0 +1,12 @@
+.idea/
+.gradle/
+
+out/
+build/
+generated/
+docker-provision/
+
+**/data/**
+docker/prometheus/*-volume/**
+!docker/**/.includedir
+
